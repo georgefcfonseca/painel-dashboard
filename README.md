@@ -13,10 +13,29 @@ Este projeto é um aplicativo de desktop construído com `PyQt5`. Ele permite qu
 
 ## 🚀 Como Usar
 
-1. **Instalação:** Clone este repositório usando `git clone <URL_DO_REPOSITORIO>`.
-2. **Dependências:** Instale as dependências com `pip install pyqt5 pyqtwebengine`.
-3. **Configuração:** Modifique o arquivo `urls.txt` incluindo as URLs que deseja visualizar.
-4. **Execução:** Rode o aplicativo usando `python main.py`.
+1. **Ambiente Virtual:** 
+   - Crie um ambiente virtual:
+     ```bash
+     python -m venv venv
+     ```
+   - Ative o ambiente virtual:
+     - Windows:
+       ```bash
+       .\venv\Scripts\activate
+       ```
+     - macOS e Linux:
+       ```bash
+       source venv/bin/activate
+       ```
+
+2. **Instalação:** Clone este repositório usando `git clone <URL_DO_REPOSITORIO>`.
+
+3. **Dependências:** Dentro do ambiente virtual ativado, instale as dependências com:
+   ```bash
+   pip install pyqt5 pyqtwebengine
+
+4. **Configuração:** Modifique o arquivo `urls.txt` incluindo as URLs que deseja visualizar.
+5. **Execução:** Rode o aplicativo usando `python main.py`.
 
 ## 🤝 Contribuições
 
