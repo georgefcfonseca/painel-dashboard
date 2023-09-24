@@ -18,7 +18,7 @@ with open('urls.csv', 'r') as f:
     reader = csv.reader(f, delimiter=';')
     for line in reader:
         if line and line[0].startswith('http'):  # Processa apenas linhas que começam com "http"
-            urls_zoom.append((line[0], float(line[1])))
+            urls_zoom.append((line[0], int(line[1]) / 100.0))  # Converta o valor de zoom para float
 
 class App(QWidget):
     def __init__(self):
