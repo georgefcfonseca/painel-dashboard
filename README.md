@@ -28,7 +28,7 @@ Este projeto é um aplicativo de desktop construído com `PyQt5`. Ele permite qu
        source venv/bin/activate
        ```
 
-2. **Instalação:** Clone este repositório usando `git clone <URL_DO_REPOSITORIO>`.
+2. **Instalação:** Clone este repositório usando `git clone https://github.com/georgefcfonseca/window-manager.git`.
 
 3. **Dependências:** Dentro do ambiente virtual ativado, instale as dependências com:
    ```bash
