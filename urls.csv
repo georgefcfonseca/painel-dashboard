@@ -1,6 +1,6 @@
 # Este é um arquivo CSV com URLs e seus respectivos fatores de zoom
 url;zoom_factor
-https://www.google.com.br;0.9
-https://www.google.com.br;0.8
-https://www.google.com.br;1.0
-https://www.google.com.br;0.5
+https://www.google.com.br;50
+https://www.google.com.br;70
+https://www.google.com.br;85
+https://www.google.com.br;100
