@@ -32,7 +32,7 @@ Este projeto é um aplicativo de desktop construído com `PyQt5`. Ele permite qu
 
 3. **Dependências:** Dentro do ambiente virtual ativado, instale as dependências com:
    ```bash
-   pip install pyqt5 pyqtwebengine
+   pip install -r requirements.txt
 
 4. **Configuração:** Modifique o arquivo `urls.txt` incluindo as URLs que deseja visualizar.
 5. **Execução:** Rode o aplicativo usando `python main.py`.
